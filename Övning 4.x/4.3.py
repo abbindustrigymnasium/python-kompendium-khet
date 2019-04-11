@@ -1,7 +1,7 @@
 registrerade =["Anna", "Eva", "Erik", "Lars", "Karl"]
-anmälningar =["Anna", "Erik", "Karl"]
+avanmälningar =["Anna", "Erik", "Karl"]
 
-for person in anmälningar:
+for person in avanmälningar:
     registrerade.remove(person)
 
 print(registrerade)
