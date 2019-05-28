@@ -1,11 +1,11 @@
-import requests
+import requests     #hämta definitioner 
 
 Number = input("Your Number: ")
 url = "http://77.238.56.27/examples/numinfo/?integer=" + Number
 req = requests.get(url)
 response = req.json()
 
-print (response)
+print(response)
 
 if(response['even'] == True):
     print("This number is and even number")

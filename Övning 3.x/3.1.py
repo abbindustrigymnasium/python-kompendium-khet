@@ -13,10 +13,7 @@ female = [
     "Eva"
     ]
 
-print(male[0])
-print(female[2])
-print(female[4])
-print(male[1])
-
-print('Män:', male)
-print('kvinnor:', female)
+print(male[0])      #skriv ut den första värden av male listan
+print(female[2])    #skriv ut den tredje värden av female listan
+print(female[4])    #skriv ut den femte värden av female listan
+print(male[1])      #skriv ut den andra värden av male listan

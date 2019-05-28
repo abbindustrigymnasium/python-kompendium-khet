@@ -13,8 +13,8 @@ female = [
     "Eva"
     ]
 
-female.sort()
-male.sort()
+female.sort()               #sortera listan i bokstavsordning
+male.sort()                 #sortera listan i bokstavsordning
 
-print('Män:', male)
-print('kvinnor:', female)
+print('Män:', male)         #skriv ut male listan
+print('kvinnor:', female)   #skriv ut female listan

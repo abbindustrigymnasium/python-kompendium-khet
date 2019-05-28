@@ -14,7 +14,7 @@ female = [
     ]
 
 y = input("Ditt namn: ")
-male.append(y)
+male.append(y)              #lägg till namn i male listan från input av y
 
-print('Män:', male)
-print('kvinnor:', female)
+print('Män:', male)         #skriv ut male listan
+print('kvinnor:', female)   #skriv ut female listan
