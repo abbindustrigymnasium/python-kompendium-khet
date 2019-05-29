@@ -25,7 +25,7 @@ def echo(arg):
     print("| " + arg)
 
 def prompt(arg):
-    input("| " + arg + " >")
+    str(input("| " + arg + " >"))
 
 def clear():
     os.system('cls')
